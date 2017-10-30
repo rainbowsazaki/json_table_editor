@@ -1,8 +1,8 @@
 {
-  "name": "electron_first",
+  "name": "json_table_editor",
   "version": "0.0.0",
-  "author": "rainbows",
-  "description": "An electron-vue project",
+  "author": "rainbowsazaki",
+  "description": "JSON table editor.",
   "license": null,
   "main": "./dist/electron/main.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "postinstall": "npm run lint:fix"
   },
   "build": {
-    "productName": "electron_first",
+    "productName": "json_table_editor",
     "appId": "org.simulatedgreg.electron-vue",
     "directories": {
       "output": "build"

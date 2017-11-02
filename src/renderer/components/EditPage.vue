@@ -35,7 +35,7 @@ export default {
     }
   },
   created: function () {
-    const formatPath = '/Users/rainbowsazaki/Documents/web_project/electron_first/static/aaaa/format.json'
+    const formatPath = '/Users/rainbowsazaki/Documents/web_project/mgrc-mission-json/format.json'
     this.loadFormat(formatPath)
   },
   methods: {

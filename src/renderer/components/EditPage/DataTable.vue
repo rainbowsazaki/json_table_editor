@@ -76,8 +76,10 @@ export default {
         this.data.splice(rowIndex, 1)
       }
     },
-    outputJson: function () {
-      return JSON.stringify(this.data, this.formats.map(t => t.id)).split('},').join('},\n')
+    outputJson: function (indent) {
+      let json = JSON.stringify(this.data, this.formats.map(t => t.id), indent)
+      if (indent === undefined) { json = json.split('},').join('},\n') }
+      return json
     },
 
     changeDragTarget: function (i) {

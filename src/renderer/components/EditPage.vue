@@ -123,7 +123,7 @@ export default {
         }]
       }, (files) => {
         files.forEach(file => {
-          this.loadformat(file)
+          this.loadFormat(file)
         })
       })
     },
